@@ -44,9 +44,9 @@ Merci de m’adresser par mail daniel.girard@sikara.fr le lien vers votre dépô
 
 | Objectifs                                                 | Acquis | En cours | Non acquis |
 | --------------------------------------------------------- | :----: | :------: | :--------: |
-| Créer un projet IONIC|<input type="checkbox" checked />|||
-| Créer une page Home| <input type="checkbox" checked />|||
-| Créer une page Liste|<input type="checkbox" disabled checked />|||
+| Créer un projet IONIC|-   [x]|||
+| Créer une page Home|-   [x]|||
+| Créer une page Liste|-   [ ]|||
 | Créer une page de création|<input type="checkbox" disabled checked />|||
 | Créer une page de modification|<input type="checkbox" disabled checked />|||
 | Utilisation des piles de navigations avec et sans paramètre|<input type="checkbox" disabled checked />|||
