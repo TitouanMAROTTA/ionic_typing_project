@@ -44,30 +44,30 @@ Merci de m’adresser par mail daniel.girard@sikara.fr le lien vers votre dépô
 
 | Objectifs                                                 | Acquis | En cours | Non acquis |
 | --------------------------------------------------------- | :----: | :------: | :--------: |
-| Créer un projet IONIC|-   [x]|||
-| Créer une page Home|-   [x]|||
+| Créer un projet IONIC|-   [ ]|||
+| Créer une page Home|-   [ ]|||
 | Créer une page Liste|-   [ ]|||
-| Créer une page de création|<input type="checkbox" disabled checked />|||
-| Créer une page de modification|<input type="checkbox" disabled checked />|||
-| Utilisation des piles de navigations avec et sans paramètre|<input type="checkbox" disabled checked />|||
-| Utilisation des components IONIC|<input type="checkbox" disabled checked />|||
-| Mise en place d’une fonctionnalité native|<input type="checkbox" disabled checked />|||
-| Cohérence affichage avec le contexte mobile|<input type="checkbox" disabled checked />|||
-| Formulaire (champ = type)|<input type="checkbox" disabled checked />|||
-| Validation de formulaire|<input type="checkbox" disabled checked />|||
-| Lisibilité du code|<input type="checkbox" disabled checked />|||
-| Thème|<input type="checkbox" disabled checked />|||
-| Contenu|<input type="checkbox" disabled checked />|||
-| Mise en place d’un service|<input type="checkbox" disabled checked />|||
-| Utilisation du service (entre autres avec subject)|<input type="checkbox" disabled checked />|||
-| Connexion à Firebase|<input type="checkbox" disabled checked />|||
-| Utilisation des observables|<input type="checkbox" disabled checked />|||
-| Réalisation du CRUD                                       |        |          |            |
-| *-* Création|<input type="checkbox" disabled checked />|||
-| - Modification|<input type="checkbox" disabled checked />|||
-| - GetAll|<input type="checkbox" disabled checked />|||
-| - GetOne|<input type="checkbox" disabled checked />|||
-| - Suppression|<input type="checkbox" disabled checked />|||
+| Créer une page de création|-   [ ]|||
+| Créer une page de modification|-   [ ]|||
+| Utilisation des piles de navigations avec et sans paramètre|-   [ ]|||
+| Utilisation des components IONIC|-   [ ]|||
+| Mise en place d’une fonctionnalité native|-   [ ]|||
+| Cohérence affichage avec le contexte mobile|-   [ ]|||
+| Formulaire (champ = type)|-   [ ]|||
+| Validation de formulaire|-   [ ]|||
+| Lisibilité du code|-   [ ]|||
+| Thème|-   [ ]|||
+| Contenu|-   [ ]|||
+| Mise en place d’un service|-   [ ]|||
+| Utilisation du service (entre autres avec subject)|-   [ ]|||
+| Connexion à Firebase|-   [ ]|||
+| Utilisation des observables|-   [ ]|||
+| Réalisation du CRUD||||
+| *-* Création|-   [ ]|||
+| - Modification|-   [ ]|||
+| - GetAll|-   [ ]|||
+| - GetOne|-   [ ]|||
+| - Suppression|-   [ ]|||
 | Investissement globale dans le projet (0 à 5)||||
 | Lisibilité du projet (0 à 5)||||
 | Cohérence thème (0 à 5)||||
