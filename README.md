@@ -44,30 +44,30 @@ Merci de m’adresser par mail daniel.girard@sikara.fr le lien vers votre dépô
 
 | Objectifs                                                 | Acquis | En cours | Non acquis |
 | --------------------------------------------------------- | :----: | :------: | :--------: |
-| Créer un projet IONIC|✅|||
-| Créer une page Home|-   [ ]|||
-| Créer une page Liste|-   [ ]|||
-| Créer une page de création|-   [ ]|||
-| Créer une page de modification|-   [ ]|||
-| Utilisation des piles de navigations avec et sans paramètre|-   [ ]|||
-| Utilisation des components IONIC|-   [ ]|||
-| Mise en place d’une fonctionnalité native|-   [ ]|||
-| Cohérence affichage avec le contexte mobile|-   [ ]|||
-| Formulaire (champ = type)|-   [ ]|||
-| Validation de formulaire|-   [ ]|||
-| Lisibilité du code|-   [ ]|||
-| Thème|-   [ ]|||
-| Contenu|-   [ ]|||
-| Mise en place d’un service|-   [ ]|||
-| Utilisation du service (entre autres avec subject)|-   [ ]|||
-| Connexion à Firebase|-   [ ]|||
-| Utilisation des observables|-   [ ]|||
+| Créer un projet IONIC|☑️|||
+| Créer une page Home|☑️|||
+| Créer une page Liste|☐|||
+| Créer une page de création|☐|||
+| Créer une page de modification|☐|||
+| Utilisation des piles de navigations avec et sans paramètre|☐|||
+| Utilisation des components IONIC|☐|||
+| Mise en place d’une fonctionnalité native|☐|||
+| Cohérence affichage avec le contexte mobile|☐|||
+| Formulaire (champ = type)|☐|||
+| Validation de formulaire|☐|||
+| Lisibilité du code|☐|||
+| Thème|☐|||
+| Contenu|☐|||
+| Mise en place d’un service|☐|||
+| Utilisation du service (entre autres avec subject)|☐|||
+| Connexion à Firebase|☐|||
+| Utilisation des observables|☐|||
 | Réalisation du CRUD||||
-| *-* Création|-   [ ]|||
-| - Modification|-   [ ]|||
-| - GetAll|-   [ ]|||
-| - GetOne|-   [ ]|||
-| - Suppression|-   [ ]|||
+| *-* Création|☐|||
+| - Modification|☐|||
+| - GetAll|☐|||
+| - GetOne|☐|||
+| - Suppression|☐|||
 | Investissement globale dans le projet (0 à 5)||||
 | Lisibilité du projet (0 à 5)||||
 | Cohérence thème (0 à 5)||||
