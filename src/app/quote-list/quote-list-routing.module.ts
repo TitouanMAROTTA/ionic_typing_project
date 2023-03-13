@@ -9,11 +9,11 @@ const routes: Routes = [
     component: QuoteListPage
   },
   {
-    path: 'quote-new',
+    path: 'new',
     loadChildren: () => import('./quote-new/quote-new.module').then( m => m.QuoteNewPageModule)
   },
   {
-    path: 'quote',
+    path: ':id',
     loadChildren: () => import('./quote/quote.module').then( m => m.QuotePageModule)
   }
 ];
