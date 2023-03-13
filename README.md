@@ -44,7 +44,7 @@ Merci de m’adresser par mail daniel.girard@sikara.fr le lien vers votre dépô
 
 | Objectifs                                                 | Acquis | En cours | Non acquis |
 | --------------------------------------------------------- | :----: | :------: | :--------: |
-| Créer un projet IONIC|-   [ ]|||
+| Créer un projet IONIC|✅|||
 | Créer une page Home|-   [ ]|||
 | Créer une page Liste|-   [ ]|||
 | Créer une page de création|-   [ ]|||
