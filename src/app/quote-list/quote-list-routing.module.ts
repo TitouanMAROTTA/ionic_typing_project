@@ -7,6 +7,14 @@ const routes: Routes = [
   {
     path: '',
     component: QuoteListPage
+  },
+  {
+    path: 'quote-new',
+    loadChildren: () => import('./quote-new/quote-new.module').then( m => m.QuoteNewPageModule)
+  },
+  {
+    path: 'quote',
+    loadChildren: () => import('./quote/quote.module').then( m => m.QuotePageModule)
   }
 ];
 
