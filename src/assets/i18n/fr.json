@@ -11,6 +11,11 @@
     "newQuote": "Ajouter une nouvelle citation",
     "delete": "Supprimer",
 
-    "makeItModifiable" : "Rendre modifiable"
+    "makeItModifiable": "Rendre modifiable",
+
+    "confirmWantModify": "Êtes-vous sûr de vouloir modifier ?",
+    "ifModify": "Vous rendrez possible la modification",
+    "cancel": "Annuler",
+    "confirm": "Confirmer"
   }
   

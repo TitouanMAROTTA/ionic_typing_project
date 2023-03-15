@@ -14,7 +14,7 @@
 </ion-header>
 
 <ion-content>
-  <ion-button (click)="modif = !modif">
+  <ion-button (click)="setModif()">
     {{ translationService.getTranslation('makeItModifiable') }}
   </ion-button>
   <div *ngIf="!modif">
