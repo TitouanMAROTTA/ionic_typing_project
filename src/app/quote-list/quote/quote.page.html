@@ -19,6 +19,37 @@
   </ion-button>
   <div *ngIf="!modif">
     J'affiche le détail
+
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <h1>#1</h1>
+          <h2>Super quote</h2>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <p>Une citation n'est jamais rien de plus que quelques mots.</p>
+          <p class="author">Titouan</p>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+      <!-- <ion-grid>
+        <ion-row>
+          <ion-col>
+            <h1>{{ quote.id }}</h1>
+            <h2>{{ quote.title }}</h2>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <p>{{ quote.quote }}</p>
+            <p class="author">{{ quote.author }}</p>
+          </ion-col>
+        </ion-row>
+      </ion-grid> -->
+
   </div>
   <div *ngIf="modif">
     Je peux modifier
