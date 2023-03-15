@@ -19,39 +19,39 @@
 
 
 <ion-content>
-  <ion-list>
+  <ion-list *ngFor="let quote of quotes">
     <ion-item>
-      <ion-label>#1 A super quote!</ion-label>
+      <ion-label [routerLink]="['/tab/quotes', quote.id]">#{{quote.id}} - {{quote.title}}</ion-label>
       <ion-button color="secondary">
         <ion-icon name="build"></ion-icon>
         <ion-label>Edit</ion-label>
       </ion-button>
       <ion-button color="danger">
         <ion-icon name="trash"></ion-icon>
-        <ion-label>Delete</ion-label>
-      </ion-button>
-    </ion-item>
-    <ion-item>
-      <ion-label>#2 A super quote!</ion-label>
-      <ion-button color="secondary">
-        <ion-icon name="build"></ion-icon>
-        <ion-label>Edit</ion-label>
-      </ion-button>
-      <ion-button color="danger">
-        <ion-icon name="trash"></ion-icon>
-        <ion-label>Delete</ion-label>
-      </ion-button>
-    </ion-item>
-    <ion-item>
-      <ion-label>#3 A super quote!</ion-label>
-      <ion-button color="secondary">
-        <ion-icon name="build"></ion-icon>
-        <ion-label>Edit</ion-label>
-      </ion-button>
-      <ion-button color="danger">
-        <ion-icon name="trash"></ion-icon>
-        <ion-label>Delete</ion-label>
+        <!-- <ion-label>
+          {{ translationService.getTranslation('delete') }}
+        </ion-label> -->
       </ion-button>
     </ion-item>
   </ion-list>
 </ion-content>
+
+
+<!-- <ion-grid>
+  <ion-row *ngFor="let quote of quotes">
+    <ion-col>
+      <ion-list [routerLink]="['/tab/quotes', quote.id]">
+        <ion-item>#{{quote.id}} - {{quote.title}}
+          <ion-button color="secondary">
+            <ion-icon name="build"></ion-icon>
+            <ion-label>Edit</ion-label>
+          </ion-button>
+          <ion-button color="danger">
+            <ion-icon name="trash"></ion-icon>
+            <ion-label>Delete</ion-label>
+          </ion-button>
+        </ion-item>
+      </ion-list>
+    </ion-col>
+  </ion-row>
+</ion-grid> -->
