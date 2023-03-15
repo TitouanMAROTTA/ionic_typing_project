@@ -8,6 +8,8 @@
     "password": "Password",
     "login": "Log in",
 
-    "newQuote": "Add a new quote"
+    "newQuote": "Add a new quote",
+
+    "makeItModifiable" : "Make it modifiable"
   }
   

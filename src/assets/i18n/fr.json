@@ -8,6 +8,8 @@
     "password": "Mot de passe",
     "login": "Se connecter",
 
-    "newQuote": "Ajouter une nouvelle citation"
+    "newQuote": "Ajouter une nouvelle citation",
+
+    "makeItModifiable" : "Rendre modifiable"
   }
   

@@ -1,9 +1,26 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>quote</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/tab/quotes"></ion-back-button>
+    </ion-buttons>
+    <ion-title class="title" >quote</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="switchLanguage()">
+        <ion-icon name="language-outline"></ion-icon>
+      </ion-button>
+      <ion-button><ion-icon slot="end" name="people"></ion-icon></ion-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-
+  <ion-button (click)="modif = !modif">
+    {{ translationService.getTranslation('makeItModifiable') }}
+  </ion-button>
+  <div *ngIf="!modif">
+    J'affiche le détail
+  </div>
+  <div *ngIf="modif">
+    Je peux modifier
+  </div>
 </ion-content>
