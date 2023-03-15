@@ -17,3 +17,21 @@ import { HomePageRoutingModule } from './home-routing.module';
   declarations: [HomePage]
 })
 export class HomePageModule {}
+
+
+
+// import { NgModule } from '@angular/core';
+// import { BrowserModule } from '@angular/platform-browser';
+// import { RouteReuseStrategy } from '@angular/router';
+// import { HttpClientModule } from '@angular/common/http';
+// import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
+// import { HomePage } from './home.page';
+// import { HomePageRoutingModule } from './home-routing.module';
+
+// @NgModule({
+//   declarations: [HomePage],
+//   imports: [BrowserModule, IonicModule.forRoot(), HomePageRoutingModule, HttpClientModule],
+//   providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
+//   bootstrap: [AppComponent],
+// })
+// export class AppModule {}

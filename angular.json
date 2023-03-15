@@ -100,6 +100,10 @@
             "karmaConfig": "karma.conf.js",
             "inlineStyleLanguage": "scss",
             "assets": [
+              "src/favicon.ico",
+              "src/assets",
+              "src/en.json",
+              "src/fr.json",
               {
                 "glob": "**/*",
                 "input": "src/assets",

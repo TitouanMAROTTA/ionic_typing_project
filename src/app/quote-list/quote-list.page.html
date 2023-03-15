@@ -1,13 +1,18 @@
 <ion-header>
   <ion-toolbar>
     <ion-title class="title" >quoteList</ion-title>
-    <ion-icon slot="end" name="people"></ion-icon>
+    <ion-buttons slot="end">
+      <ion-button (click)="switchLanguage()">{{ currentLanguage }}</ion-button>
+      <ion-button><ion-icon slot="end" name="people"></ion-icon></ion-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
 
 
-<ion-button color="success">Add a new quote</ion-button>
+<ion-button color="success">
+  {{ translationService.getTranslation('newQuote') }}
+</ion-button>
 
 
 

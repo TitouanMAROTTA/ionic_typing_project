@@ -1,12 +1,11 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { IonicModule } from '@ionic/angular';
 import { FormsModule } from '@angular/forms';
 
-import { IonicModule } from '@ionic/angular';
-
+import { QuoteListPage } from './quote-list.page';
 import { QuoteListPageRoutingModule } from './quote-list-routing.module';
 
-import { QuoteListPage } from './quote-list.page';
 
 @NgModule({
   imports: [

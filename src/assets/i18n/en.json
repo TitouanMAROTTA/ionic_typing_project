@@ -6,6 +6,8 @@
     "loginMessage2": "Log in to track your progress and challenge your friends to see who is the fastest.",
     "username": "Username",
     "password": "Password",
-    "login": "Log in"
+    "login": "Log in",
+
+    "newQuote": "Add a new quote"
   }
   
