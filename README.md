@@ -5,6 +5,13 @@
 
 ---
 
+Pour pouvoir travailler avec Ionic nous allons devoir installer :
+* NodeJS qui permet la réalisation et l’exécution d’un BackOffice en Javascript
+* NPM (node package manager) qui nous permettra d’installer facilement des librairies
+* IONIC & CORDOVA avec la commande ```npm install -g @ionic/cli native-run cordova-res``` (le –g permet de l’installer en global sur votre machine)
+
+---
+
 ## Sujet :
 
 Réaliser un projet en utilisant le Framework IONIC permettant de gérer un CRUD sur l’information de votre choix (jeux vidéo, livre etc…) en utilisant l’ensemble des éléments vus en cours ou nécessaire à la création de votre projet. Le projet devra respecter les consignes suivantes :
