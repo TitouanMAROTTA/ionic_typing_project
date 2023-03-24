@@ -1,9 +1,17 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>write</ion-title>
+    <ion-title class="title">Write</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="switchLanguage()">
+        <ion-icon name="language-outline"></ion-icon>
+      </ion-button>
+      <ion-button><ion-icon slot="end" name="people"></ion-icon></ion-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-
+  <p class="description">
+    {{ translationService.getTranslation('writePageDescription') }}
+  </p>
 </ion-content>
