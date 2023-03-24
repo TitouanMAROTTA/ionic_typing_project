@@ -18,8 +18,9 @@
   <div *ngIf="!modif">
     <ion-grid>
       <ion-row>
-        <ion-button (click)="setModif()">
-          {{ translationService.getTranslation('makeItModifiable') }}
+        <ion-button (click)="setModif()" color="secondary">
+          <ion-icon name="build"></ion-icon>
+          <ion-label>{{ translationService.getTranslation('makeItModifiable') }}</ion-label>
         </ion-button>
       </ion-row>
       <ion-row>
