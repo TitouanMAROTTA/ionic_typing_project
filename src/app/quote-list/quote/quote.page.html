@@ -3,7 +3,7 @@
     <ion-buttons slot="start">
       <ion-back-button defaultHref="/tab/quotes"></ion-back-button>
     </ion-buttons>
-    <ion-title class="title" >quote</ion-title>
+    <ion-title class="title">Quote</ion-title>
     <ion-buttons slot="end">
       <ion-button (click)="switchLanguage()">
         <ion-icon name="language-outline"></ion-icon>
@@ -14,13 +14,14 @@
 </ion-header>
 
 <ion-content>
-  <ion-button (click)="setModif()">
-    {{ translationService.getTranslation('makeItModifiable') }}
-  </ion-button>
+  
   <div *ngIf="!modif">
-    J'affiche le détail
-
     <ion-grid>
+      <ion-row>
+        <ion-button (click)="setModif()">
+          {{ translationService.getTranslation('makeItModifiable') }}
+        </ion-button>
+      </ion-row>
       <ion-row>
         <ion-col>
           <h1>#1</h1>
@@ -34,23 +35,27 @@
         </ion-col>
       </ion-row>
     </ion-grid>
-
-      <!-- <ion-grid>
-        <ion-row>
-          <ion-col>
-            <h1>{{ quote.title }}</h1>
-          </ion-col>
-        </ion-row>
-        <ion-row>
-          <ion-col>
-            <p>{{ quote.content }}</p>
-            <p class="author">{{ quote.author }}</p>
-          </ion-col>
-        </ion-row>
-      </ion-grid> -->
-
   </div>
+
   <div *ngIf="modif">
-    Je peux modifier
+      <ion-card>
+        <ion-card-content>
+          <h1>Modify Quote</h1>
+          <form>
+            <ion-item>
+              <ion-label>Quote Text</ion-label>
+              <ion-input type="text"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label>Author</ion-label>
+              <ion-input type="text"></ion-input>
+            </ion-item>
+          </form>
+        </ion-card-content>
+      </ion-card>
+      <!-- <ion-button expand="block" (click)="saveQuote()">Save</ion-button>
+      <ion-button expand="block" color="danger" (click)="cancel()">Cancel</ion-button> -->
+      <ion-button expand="block">Save</ion-button>
+      <ion-button expand="block" color="danger">Cancel</ion-button>
   </div>
 </ion-content>
