@@ -18,6 +18,10 @@
     "cancel": "Cancel",
     "confirm": "Confirm",
 
-    "writePageDescription": "On this page, you can train your typing speed!"
+    "writePageDescription": "On this page, you can train your typing speed!",
+
+    "quoteTitle": "Quote title",
+    "quoteContent": "Quote content",
+    "quoteAuthor": "Quote author"
   }
   

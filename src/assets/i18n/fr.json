@@ -18,6 +18,10 @@
     "cancel": "Annuler",
     "confirm": "Confirmer",
 
-    "writePageDescription": "Sur cette page, vous pourrez entraîner votre vitesse de frappe !"
+    "writePageDescription": "Sur cette page, vous pourrez entraîner votre vitesse de frappe !",
+
+    "quoteTitle": "Titre de la citation",
+    "quoteContent": "Contenu de la citation",
+    "quoteAuthor": "Auteur de la citation"
   }
   

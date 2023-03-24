@@ -1,9 +1,29 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>quoteNew</ion-title>
+    <ion-title class="title" >List of quotes</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="switchLanguage()">
+        <ion-icon name="language-outline"></ion-icon>
+      </ion-button>
+      <ion-button><ion-icon slot="end" name="people"></ion-icon></ion-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
 
+<ion-content>
+  <ion-list>
+    <ion-item>
+      <ion-input placeholder="{{ translationService.getTranslation('quoteTitle') }}" [(ngModel)]="quote.title"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input placeholder="{{ translationService.getTranslation('quoteContent') }}" [(ngModel)]="quote.content"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input placeholder="{{ translationService.getTranslation('quoteAuthor') }}" [(ngModel)]="quote.author"></ion-input>
+    </ion-item>
+      <ion-button (click)="addNewQuote()">
+        {{ translationService.getTranslation('confirm') }}
+      </ion-button>
+  </ion-list>
 </ion-content>

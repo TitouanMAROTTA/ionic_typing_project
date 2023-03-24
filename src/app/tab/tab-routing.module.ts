@@ -20,6 +20,10 @@ const routes: Routes = [
         path: 'write',
         loadChildren: () => import('../write/write.module').then( m => m.WritePageModule)
       },
+      {
+        path: 'quote-new',
+        loadChildren: () => import('../quote-list/quote-new/quote-new.module').then( m => m.QuoteNewPageModule)
+      },
     ]
   },
   {
