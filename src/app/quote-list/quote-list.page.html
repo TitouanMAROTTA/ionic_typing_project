@@ -21,37 +21,14 @@
 <ion-content>
   <ion-list *ngFor="let quote of quotes">
     <ion-item>
-      <ion-label [routerLink]="['/tab/quotes', quote.id]">#{{quote.id}} - {{quote.title}}</ion-label>
+      <ion-label [routerLink]="['/tab/quotes', quote.id]">{{quote.title}}</ion-label>
       <ion-button color="secondary">
         <ion-icon name="build"></ion-icon>
         <ion-label>Edit</ion-label>
       </ion-button>
       <ion-button color="danger">
         <ion-icon name="trash"></ion-icon>
-        <!-- <ion-label>
-          {{ translationService.getTranslation('delete') }}
-        </ion-label> -->
       </ion-button>
     </ion-item>
   </ion-list>
 </ion-content>
-
-
-<!-- <ion-grid>
-  <ion-row *ngFor="let quote of quotes">
-    <ion-col>
-      <ion-list [routerLink]="['/tab/quotes', quote.id]">
-        <ion-item>#{{quote.id}} - {{quote.title}}
-          <ion-button color="secondary">
-            <ion-icon name="build"></ion-icon>
-            <ion-label>Edit</ion-label>
-          </ion-button>
-          <ion-button color="danger">
-            <ion-icon name="trash"></ion-icon>
-            <ion-label>Delete</ion-label>
-          </ion-button>
-        </ion-item>
-      </ion-list>
-    </ion-col>
-  </ion-row>
-</ion-grid> -->
