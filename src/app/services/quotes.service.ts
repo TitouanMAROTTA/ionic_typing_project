@@ -48,7 +48,7 @@ export class QuotesService {
   }
 
   delete(id: any){
-    this.db.doc(`quote/${id}`).delete();
+    this.db.doc(`quotes/${id}`).delete();
   }
 
 
