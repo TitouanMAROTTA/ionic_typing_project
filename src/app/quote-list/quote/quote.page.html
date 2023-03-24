@@ -1,0 +1,65 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/tab/quotes"></ion-back-button>
+    </ion-buttons>
+    <ion-title class="title">Quote</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="switchLanguage()">
+        <ion-icon name="language-outline"></ion-icon>
+      </ion-button>
+      <ion-button><ion-icon slot="end" name="people"></ion-icon></ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  
+  <div *ngIf="!modif">
+    <ion-grid>
+      <ion-row>
+        <ion-button (click)="setModif()" color="secondary">
+          <ion-icon name="build"></ion-icon>
+          <ion-label>{{ translationService.getTranslation('makeItModifiable') }}</ion-label>
+        </ion-button>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <h1>#1</h1>
+          <h2>Super quote</h2>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <p>Une citation n'est jamais rien de plus que quelques mots.</p>
+          <p class="author">Titouan</p>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+
+  <div *ngIf="modif">
+      <ion-card>
+        <ion-card-content>
+          <h1>Modify Quote</h1>
+          <form>
+            <ion-item>
+              <ion-label>Title :</ion-label>
+              <ion-input type="text" placeholder="Enter Title"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label>Author :</ion-label>
+              <ion-input type="text" placeholder="Enter Author"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label>Content :</ion-label>
+              <ion-input type="text" placeholder="Enter Content"></ion-input>
+            </ion-item>
+          </form>
+        </ion-card-content>
+      </ion-card>
+      <!-- <ion-button expand="block" (click)="saveQuote()">Save</ion-button>-->
+      <ion-button expand="block">Save</ion-button>
+      <ion-button expand="block" color="danger" (click)="setModif()">Cancel</ion-button>
+  </div>
+</ion-content>

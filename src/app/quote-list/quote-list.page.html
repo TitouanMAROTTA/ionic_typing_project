@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title class="title" >List of quotes</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="switchLanguage()">
+        <ion-icon name="language-outline"></ion-icon>
+      </ion-button>
+      <ion-button><ion-icon slot="end" name="people"></ion-icon></ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+
+
+<ion-button color="success" routerLinkActive="active" routerLink="../quote-new">
+  {{ translationService.getTranslation('newQuote') }}
+</ion-button>
+
+
+
+<ion-content>
+  <ion-list *ngFor="let quote of quotes">
+    <ion-item>
+      <ion-label [routerLink]="['/tab/quotes', quote.id]">{{quote.title}}</ion-label>
+      <ion-button color="danger" (click)="deleteQuote(quote.id)">
+        <ion-icon name="trash"></ion-icon>
+      </ion-button>
+    </ion-item>
+  </ion-list>
+</ion-content>
